@@ -1,0 +1,12 @@
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\bin\Debug\net6.0\Journey.Core.deps.json
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\bin\Debug\net6.0\Journey.Core.dll
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\bin\Debug\net6.0\Journey.Core.pdb
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\obj\Debug\net6.0\Journey.Core.csproj.AssemblyReference.cache
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\obj\Debug\net6.0\Journey.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\obj\Debug\net6.0\Journey.Core.AssemblyInfoInputs.cache
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\obj\Debug\net6.0\Journey.Core.AssemblyInfo.cs
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\obj\Debug\net6.0\Journey.Core.csproj.CoreCompileInputs.cache
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\obj\Debug\net6.0\Journey.Core.dll
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\obj\Debug\net6.0\refint\Journey.Core.dll
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\obj\Debug\net6.0\Journey.Core.pdb
+C:\Users\vani1\source\repos\CRUDV2\Journey.Core\obj\Debug\net6.0\ref\Journey.Core.dll

@@ -1,0 +1,17 @@
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\bin\Debug\net6.0\Journey.DataAccess.deps.json
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\bin\Debug\net6.0\Journey.DataAccess.runtimeconfig.json
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\bin\Debug\net6.0\Journey.DataAccess.dll
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\bin\Debug\net6.0\Journey.DataAccess.pdb
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\bin\Debug\net6.0\Journey.Core.dll
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\bin\Debug\net6.0\Journey.Core.pdb
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.csproj.AssemblyReference.cache
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.AssemblyInfoInputs.cache
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.AssemblyInfo.cs
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.csproj.CopyComplete
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.dll
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\obj\Debug\net6.0\refint\Journey.DataAccess.dll
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.pdb
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.genruntimeconfig.cache
+C:\Users\vani1\source\repos\CRUDV2\Journey.DataAccess\obj\Debug\net6.0\ref\Journey.DataAccess.dll

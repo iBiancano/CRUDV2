@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/kgwLmHmEOFE2ueqfXJlPBodxJNTRJDD93zQbiLgFgQ=",
+  "Source": "Passenger.Api",
+  "BasePath": "_content/Passenger.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\bin\Debug\net6.0\Passenger.Core.deps.json
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\bin\Debug\net6.0\Passenger.Core.dll
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\bin\Debug\net6.0\Passenger.Core.pdb
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\obj\Debug\net6.0\Passenger.Core.csproj.AssemblyReference.cache
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\obj\Debug\net6.0\Passenger.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\obj\Debug\net6.0\Passenger.Core.AssemblyInfoInputs.cache
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\obj\Debug\net6.0\Passenger.Core.AssemblyInfo.cs
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\obj\Debug\net6.0\Passenger.Core.csproj.CoreCompileInputs.cache
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\obj\Debug\net6.0\Passenger.Core.dll
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\obj\Debug\net6.0\refint\Passenger.Core.dll
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\obj\Debug\net6.0\Passenger.Core.pdb
+C:\Users\vani1\source\repos\CRUDV2\Passenger.Core\obj\Debug\net6.0\ref\Passenger.Core.dll

@@ -1,0 +1,12 @@
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\bin\Debug\net6.0\Passenger.ApplicationServices.Shared.deps.json
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\bin\Debug\net6.0\Passenger.ApplicationServices.Shared.dll
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\bin\Debug\net6.0\Passenger.ApplicationServices.Shared.pdb
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\obj\Debug\net6.0\Passenger.ApplicationServices.Shared.csproj.AssemblyReference.cache
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\obj\Debug\net6.0\Passenger.ApplicationServices.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\obj\Debug\net6.0\Passenger.ApplicationServices.Shared.AssemblyInfoInputs.cache
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\obj\Debug\net6.0\Passenger.ApplicationServices.Shared.AssemblyInfo.cs
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\obj\Debug\net6.0\Passenger.ApplicationServices.Shared.csproj.CoreCompileInputs.cache
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\obj\Debug\net6.0\Passenger.ApplicationServices.Shared.dll
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\obj\Debug\net6.0\refint\Passenger.ApplicationServices.Shared.dll
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\obj\Debug\net6.0\Passenger.ApplicationServices.Shared.pdb
+C:\Users\vani1\source\repos\CRUDV2\Passenger.ApplicationService.Shared\obj\Debug\net6.0\ref\Passenger.ApplicationServices.Shared.dll

@@ -1,0 +1,17 @@
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\bin\Debug\net6.0\Passenger.DataAccess.deps.json
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\bin\Debug\net6.0\Passenger.DataAccess.runtimeconfig.json
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\bin\Debug\net6.0\Passenger.DataAccess.dll
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\bin\Debug\net6.0\Passenger.DataAccess.pdb
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\bin\Debug\net6.0\Passenger.Core.dll
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\bin\Debug\net6.0\Passenger.Core.pdb
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\obj\Debug\net6.0\Passenger.DataAccess.csproj.AssemblyReference.cache
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\obj\Debug\net6.0\Passenger.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\obj\Debug\net6.0\Passenger.DataAccess.AssemblyInfoInputs.cache
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\obj\Debug\net6.0\Passenger.DataAccess.AssemblyInfo.cs
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\obj\Debug\net6.0\Passenger.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\obj\Debug\net6.0\Passenger.DataAccess.csproj.CopyComplete
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\obj\Debug\net6.0\Passenger.DataAccess.dll
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\obj\Debug\net6.0\refint\Passenger.DataAccess.dll
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\obj\Debug\net6.0\Passenger.DataAccess.pdb
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\obj\Debug\net6.0\Passenger.DataAccess.genruntimeconfig.cache
+C:\Users\vani1\source\repos\CRUDV2\Passenger.DataAccess\obj\Debug\net6.0\ref\Passenger.DataAccess.dll
