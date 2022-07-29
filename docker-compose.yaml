@@ -1,53 +1,38 @@
 # Use root/example as user/password credentials
-version: '3.1'
+version: "3"
 
 services:
-
   dbJourney:
     image: mysql
-    # NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password
-    # (this is just an example, not intended to be a production configuration)
-    command: --default-authentication-plugin=mysql_native_password
-    restart: always
+    entrypoint: /bin/bash -c "sleep infinity"
+    #command: sleep infinity
     environment:
-      MYSQL_ROOT_PASSWORD: $PASSWORD
+      - MYSQL_ROOT_PASSWORD=${PASSWORD}
     expose:
       - "3306"
     volumes:
-      - "dataJourney:/var/lib/mysql"
-      - "journey.sql:/tmp/journey.sql"
-
-
-
+      - ${PWD}/dateJourney:/var/lib/mysql
+      #- ${PWD}/journey.sql:/tmp/journey.sql
   dbPassenger:
     image: mysql
-    # NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password
-    # (this is just an example, not intended to be a production configuration)
-    command: --default-authentication-plugin=mysql_native_password
-    restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: $PASSWORD
+      - MYSQL_ROOT_PASSWORD=${PASSWORD}
     expose:
       - "3306"
     volumes:
-      - "dataPassenger:/var/lib/mysql"
-      - "passenger.sql:/tmp/passenger.sql"
-
+      - "./dataPassenger:/var/lib/mysql"
+      - "./passenger.sql:/tmp/passenger.sql"
   dbTicket:
     image: mysql
-    # NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password
-    # (this is just an example, not intended to be a production configuration)
-    command: --default-authentication-plugin=mysql_native_password
-    restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: $PASSWORD
+      - MYSQL_ROOT_PASSWORD=${PASSWORD}
     expose:
       - "3306"
     volumes:
-      - "dataTicker:/var/lib/mysql"
-      - "ticket.sql:/tmp/ticket.sql"
-
+      - "./dataTicket:/var/lib/mysql"
+      - "./ticket.sql:/tmp/ticket.sql"
   adminer:
+    container_name: adminer
     image: adminer
     restart: always
     ports:
