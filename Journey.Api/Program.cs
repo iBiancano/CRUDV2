@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -17,7 +18,7 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "My Api", Version = "v1" });
 });
 
-string connectionString = builder.Configuration.GetConnectionString("Default");
+string connectionString = builder.Configuration.GetConnectionString("Development");
 
 builder.Services.AddDbContext<JourneyDataContext>(options =>
 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
@@ -31,8 +32,9 @@ builder.Services.AddAutoMapper(typeof(Journey.ApplicationServices.MapperJourney)
 
 var app = builder.Build();
 
+
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.EnvironmentName.Equals("Docker"))
 {
     app.UseSwagger();
     app.UseSwaggerUI();

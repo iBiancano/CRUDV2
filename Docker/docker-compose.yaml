@@ -1,0 +1,19 @@
+# Use root/example as user/password credentials
+version: "3"
+
+services:
+  dbJourney:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=${PASSWORD}
+    expose:
+      - "3306"
+    volumes:
+      - ./dataJourney:/var/lib/mysql
+      - ./backupDb/journey.sql:/docker-entrypoint-initdb.d/backupdump.sql
+  adminer:
+    container_name: adminer
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080

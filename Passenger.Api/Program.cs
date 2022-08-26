@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-string connectionString = builder.Configuration.GetConnectionString("Default");
+string connectionString = builder.Configuration.GetConnectionString("Development");
 
 builder.Services.AddDbContext<PassengerDataContext>(options =>
 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))

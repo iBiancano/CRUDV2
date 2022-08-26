@@ -25,4 +25,8 @@
     <ProjectReference Include="..\Journey.DataAccess\Journey.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <InternalsVisibleTo Include ="..\JourneyTest\Journey.Test.csproj"/>
+  </ItemGroup>
+
 </Project>

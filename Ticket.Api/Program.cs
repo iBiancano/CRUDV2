@@ -20,7 +20,7 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "My Api", Version = "v1" });
 });
 
-string connectionString = builder.Configuration.GetConnectionString("Default");
+string connectionString = builder.Configuration.GetConnectionString("Development");
 
 builder.Services.AddDbContext<TicketDataContext>(options =>
 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
