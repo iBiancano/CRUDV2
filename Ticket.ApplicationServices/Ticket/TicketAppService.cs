@@ -52,9 +52,14 @@ namespace Ticket.ApplicationServices.Ticket
             Core.Entities.Ticket ticket = await _repository.GetAsync(ticketId);
             Core.Entities.Journey journey = await _journeyAppService.GetJourneyById(ticket.JourneyId);
             Core.Entities.Passenger passenger = await _passengerAppService.GetPassengerById(ticket.PassengerId);
-            TicketShowDto ticketShowDto = _mapper.Map<TicketShowDto>(ticket);
-            ticketShowDto.Journey = journey;
-            ticketShowDto.Passenger = passenger;
+            TicketShowDto ticketShowDto = _mapper.Map<TicketShowDto>(ticket, opt =>
+            {
+                opt.AfterMap((src, dest) =>
+                {
+                    dest.Journey = journey;
+                    dest.Passenger = passenger;
+                });
+            });
             return ticketShowDto;
         }
 

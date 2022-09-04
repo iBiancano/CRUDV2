@@ -34,18 +34,18 @@ builder.Services.AddTransient<IRepository<int, Ticket.Core.Entities.Ticket>, Rep
 
 builder.Services.AddAutoMapper(typeof(MapperTicket));
 
-builder.Services.AddHttpClient("journey", client =>
+builder.Services.AddHttpClient("journeyDevelopment", client =>
 {
-    client.BaseAddress = new Uri(builder.Configuration["AppSettings:JourneyUrlBase"]);
+    client.BaseAddress = new Uri(builder.Configuration["AppSettings:JourneyUrlBaseDevelopment"]);
 }).ConfigurePrimaryHttpMessageHandler((c)=>
     new HttpClientHandler()
     {
         ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; }
     });
 
-builder.Services.AddHttpClient("passenger", client =>
+builder.Services.AddHttpClient("passengerDevelopment", client =>
 {
-    client.BaseAddress = new Uri(builder.Configuration["AppSettings:PassengerUrlBase"]);
+    client.BaseAddress = new Uri(builder.Configuration["AppSettings:PassengerUrlBaseDevelopment"]);
 }).ConfigurePrimaryHttpMessageHandler((c) =>
     new HttpClientHandler()
     {

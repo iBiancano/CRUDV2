@@ -17,7 +17,7 @@ namespace Ticket.ApplicationServices.Passenger
 
         public async Task<Core.Entities.Passenger> GetPassengerById(int passengerId)
         {
-            HttpClient client = _httpClientFactory.CreateClient("passenger");
+            HttpClient client = _httpClientFactory.CreateClient("passengerDevelopment");
             HttpResponseMessage response;
             string url = "passenger";
 

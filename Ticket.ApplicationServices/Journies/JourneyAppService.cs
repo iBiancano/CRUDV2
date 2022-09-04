@@ -18,7 +18,7 @@ namespace Ticket.ApplicationServices.Journies
 
         public async Task<Core.Entities.Journey> GetJourneyById(int journeyId)
         {
-            HttpClient client = _httpClientFactory.CreateClient("journey");
+            HttpClient client = _httpClientFactory.CreateClient("journeyDevelopment");
             HttpResponseMessage response;
             string url = "journey";
             
